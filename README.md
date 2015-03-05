@@ -20,8 +20,8 @@ retrolambda.jdk=<path to Java 8>
 retrolambda.oldJdk=<path to Java 7>
 ```
 
-## Additional configuration on Mac OS X
+## IntelliJ configuration on Mac OS X
 
-To make it work on my Mac OS X, the only way Gradle would not fail with this error: evant/gradle-retrolambda#74
-
-In that case, you can you this [gist](https://gist.github.com/alcarvalho/26fb041de96f6cf30e91) to it up.
+The only way IntelliJ's Gradle import would not fail for me with this
+[error](https://github.com/evant/gradle-retrolambda/issues/74), was by running
+[this gist](https://gist.github.com/alcarvalho/26fb041de96f6cf30e91) and restarting it.
